@@ -2,9 +2,13 @@
   "name": "gitlab-issues",
   "main": "./lib/gitlab-issues",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Get GitLab Issues from your repository while editing your commit-message",
   "keywords": [
+    "gitlab",
+    "issues",
+    "commit-message"
   ],
+  "author": "Benjamin Stauss <benni@stauss.es>",
   "activationCommands": {
     "atom-workspace": "gitlab-issues:toggle"
   },
