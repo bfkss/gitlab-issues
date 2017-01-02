@@ -1,0 +1,18 @@
+{
+  "name": "gitlab-issues",
+  "main": "./lib/gitlab-issues",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "gitlab-issues:toggle"
+  },
+  "repository": "https://github.com/atom/gitlab-issues",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

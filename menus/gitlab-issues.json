@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle gitlab-issues",
+        "command": "gitlab-issues:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gitlab-issues",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "gitlab-issues:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
